@@ -116,7 +116,7 @@
 
         <p>Mozilla are a global community of technologists, thinkers, and builders, 
           working together to keep the Internet alive and accessible, 
-          so people worldwide can be informed contributors and creators of the Web. 
+           so people worldwide can be informed contributors and creators of the Web. 
           We believe this act of human collaboration across an open platform is essential 
           to individual growth and our collective future.
         </p>
@@ -135,28 +135,31 @@
         </a>
 
         <a href="https://www.mozilla.org/">
-        <img srcset="mozilla-dinosaur-head-120.png 120w,
+          <img srcset="mozilla-dinosaur-head-120.png 120w,
                       mozilla-dinosaur-head-400.png 400w" sizes="(max-width: 500px) 120px,
                       400px" src="mozilla-dinosaur-head-400.png" alt="Link to the mozilla homepage">
-      </a>
+        </a>
 
         <a href="https://addons.mozilla.org/">
-        <img srcset="firefox-addons-120.jpg 120w,
+          <img srcset="firefox-addons-120.jpg 120w,
                      firefox-addons.jpg 400w" sizes="(max-width: 500px) 120px,
                      400px" src="firefox-addons.jpg" alt="Link to the mozilla addons webpage">
-      </a>
+        </a>
 
         <a href="https://developer.mozilla.org/en-US/">
-        <img src="mdn.svg" alt="Link to the web developer page by Mozilla">
-      </a>
-      
+          <img src="mdn.svg" alt="Link to the web developer page by Mozilla">
+        </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
-        <!-- insert picture element -->
+        <picture>
+          <source media="(max-width: 600px)" srcset="red-panda-portrait.jpg">
+          <source media="(min-width: 601px)" srcset="red-panda-1200.jpg">
+          <img src="red-panda.jpg" alt="Image of a red panda">
+        </picture>
       </div>
 
-    </main>
-  </body>
+      </main>
+    </body>
 </html>
