@@ -242,3 +242,10 @@ audio {
 .comment-container li p:nth-child(2) {
   flex: 5;
 }
+.move:hover, a:hover {
+  color:black;
+  display:inline-block;
+  text-decoration:none;
+  font-size:123%;
+  font-weight:bold;
+}
